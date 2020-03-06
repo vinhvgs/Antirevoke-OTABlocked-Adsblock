@@ -2,8 +2,6 @@ Hướng dẫn all in one chặn thu hồi, OTA, ads(domain quảng cáo tự đ
 
 Các bạn vào github bên dứoi lấy video hướng dẫn (video hướng dẫn by Lãng Khách và Trần Hoàng Long)
 
-https://github.com/langkhach270389/Antirevoke-OTABlocked-Adsblock?files=1
-Ydo
 Bước 1. Đưa máy về chế độ giám sát.(Xem video). Xong bước 1 nhớ khởi động lại máy
 
 https://youtu.be/cu0n0lT9C-A
