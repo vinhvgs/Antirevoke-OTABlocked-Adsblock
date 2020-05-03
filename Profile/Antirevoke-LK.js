@@ -1,18 +1,25 @@
-var DIRECT = "DIRECT";
-var PROXY = "PROXY 127.0.0.1:80";
-var blacklist = {"gdmf.apple.com":1,"gdmf.apple.com.akadns.net":1,"ocsp.apple.com":1};
+// test ffapple.com
+var domains = {
+    "ocsp.apple.com":1,
+    "gdmf.apple.com":1,
+    "mesu.apple.com":1,
+    "swscan.apple.com":1,
+    "appldnld.apple.com":1,
+    "world-gen.g.aaplimg.com":1
+};
+ 
+var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080;";
+ 
+var direct = 'DIRECT;';
+ 
 function FindProxyForURL(url, host) {
-  host = host.toLowerCase();
-  for (i = 0; i < 30; i++) {
-    if (blacklist[host]) {
-      return PROXY;
-    }
-    var index = host.indexOf(".");
-    if (index == -1) {
-      break;
-    } else {
-      host = host.substring(index + 1);
-    }
-  }
-  return DIRECT;
+    var lastPos;
+    do {
+        if (domains.hasOwnProperty(host)) {
+            return proxy;
+        }
+        lastPos = host.indexOf('.') + 1;
+        host = host.slice(lastPos);
+    } while (lastPos >= 1);
+    return direct;
 }
