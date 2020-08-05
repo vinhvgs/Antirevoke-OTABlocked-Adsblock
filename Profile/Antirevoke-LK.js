@@ -7,10 +7,8 @@ var domains = {
     "appldnld.apple.com":1,
     "world-gen.g.aaplimg.com":1
 };
- 
+var DIRECT = “PROXY 127.0.0.1:6152; DIRECT;”;
 var proxy = "SOCKS5 127.0.0.1:1080; SOCKS 127.0.0.1:1080;";
- 
-var direct = 'DIRECT;';
  
 function FindProxyForURL(url, host) {
     var lastPos;
@@ -21,5 +19,5 @@ function FindProxyForURL(url, host) {
         lastPos = host.indexOf('.') + 1;
         host = host.slice(lastPos);
     } while (lastPos >= 1);
-    return direct;
+    return DIRECT;
 }
