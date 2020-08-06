@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 	var P = "PROXY ";
-	var PROXY_DIRECT = "PROXY 127.0.0.1:6152; PROXY 192.168.1.233:6152; DIRECT";
+	var PROXY_DIRECT = "PROXY 127.0.0.1:6152; DIRECT";
 	var u = url.toLowerCase();
 	var h = host.toLowerCase();
 	var BLACK = "PROXY 127.0.0.1:8080";
