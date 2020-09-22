@@ -22,7 +22,7 @@
 		<key>ProxyPACFallbackAllowed</key>
 			<false/>
 			<key>ProxyPACURL</key>
-			<string>https://raw.githubusercontent.com/langkhach270389/Antirevoke-OTABlocked-Adsblock/master/Profile/Antirevoke-LK.js</string>
+			<string>https://github.com/vinhvgs/Antirevoke-OTABlocked-Adsblock/raw/master/Profile/Antirevoke-LK.js</string>
 			<key>ProxyType</key>
 			<string>Auto</string>
 		</dict>
