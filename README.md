@@ -12,6 +12,3 @@ Bước 2. Cài đặt config: Có 2 lựa chọn.
 Mở link trong github click raw. Alow. Sau đó cài đặt profile
 
 Done. Chúc mừng  bạn không lo bị thu hồi chứng chỉ nữa. Và bạn có thể sideload ipa ki giói hạn. Có thể tham khảo appcake để cài ipa
-
-Link github:
-https://github.com/langkhach270389/Antirevoke-OTABlocked-Adsblock?files=1
