@@ -46,7 +46,7 @@
 - Chặn thu hồi chứng chỉ.
 	</string>
 	<key>PayloadDisplayName</key>
-	<string>PACprofile</string>
+	<string>Chặn cập nhật, thu hồi chứng chỉ và quảng cáo</string>
 	<key>PayloadIdentifier</key>
 	<string>michaels-imac.local.CECF75B7-75A4-4FC8-8B9B-1DFEDC31D3D9</string>
 	<key>PayloadOrganization</key>
